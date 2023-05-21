@@ -7,14 +7,14 @@ TwitteRgpd est un script qui affiche un flux Twitter en utilisant le widget offi
 ## Utilisation
 
 1. Ajoutez un élément div à votre page HTML où vous voulez que le flux Twitter apparaisse.
-2. Incluez le script `twitteRgpd.js` dans votre page HTML.
+2. Incluez le script `twitteRgpd.min.js` dans votre page HTML.
 3. Appelez la fonction `deploy` avec l'élément `div` et les options de configuration souhaitées.
 
 Exemple :
 
 ```html
 <div id="myTwitterFeed">Loading…</div>
-<script src="twitteRgpd.js"></script>
+<script src="twitteRgpd.min.js"></script>
 <script>
 twitteRgpd.deploy(document.getElementById('myTwitterFeed'), {
     account: 'OnlineCreation',

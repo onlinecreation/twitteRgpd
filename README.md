@@ -7,14 +7,14 @@ TwitteRgpd is a script that displays a Twitter feed using the official widget, b
 ## Usage
 
 1. Add a `div` element to your HTML page where you want the Twitter feed to appear.
-2. Include the `twitteRgpd.js` script in your HTML page.
+2. Include the `twitteRgpd.min.js` script in your HTML page.
 3. Call the `deploy` function with the `div` element and the desired configuration options.
 
 Example:
 
 ```html
 <div id="myTwitterFeed">Loading…</div>
-<script src="twitteRgpd.js"></script>
+<script src="twitteRgpd.min.js"></script>
 <script>
 twitteRgpd.deploy(document.getElementById('myTwitterFeed'), {
     account: 'OnlineCreation',
